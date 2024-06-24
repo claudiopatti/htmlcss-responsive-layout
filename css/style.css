@@ -10,28 +10,26 @@ reset
 }
 
 /* 
-general 
-*/
-
-
-
-/* 
 header  
 */
 
-.header-background {
+header {
     background-color: #0084fd;
-    width: 100%;
+    max-width: 100%;
 }
+
 
 .container-header {
     display: flex;
     justify-content: space-between;
-    width: 100%;
     padding: 10px 0;
     align-items: center;
+    max-width: 400px;
 }
 
+.container-header > * {
+    margin: 0;
+}
 .header-container-right-desktop > nav > a {
     padding-left: 20px;
     text-decoration: none;
@@ -56,9 +54,86 @@ header
     font-size: 30px;
 }
 
-/* 
+/*
 main  
 */
+
+.container-main {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+
+.imagine-phone > img {
+    max-height: 300px;
+    margin-bottom: -5px;
+    padding: 10px 20px 0;
+    
+}
+
+.imagine-phone {
+    text-align: center;
+}
+
+.card-intro {
+    background-color: #b5ddff;
+    border-radius: 20px;
+}
+
+
+.apple-store  {
+    padding: 20px 30px ;
+
+}
+
+.card-intro .apple-store > a {
+    background-color: #0084fd;
+    padding: 6px 40px;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.card-intro .apple-store > a > i {
+    padding: 0px 10px;
+}
+
+.card-intro h2 {
+    color: #0084fd;
+}
+
+.my-col-1-3-tablet .card-intro div > i {
+    color: #0084fd;
+    font-size: 60px;
+}
+
+.my-col-1-3-tablet .card-intro {
+    text-align: center;
+    padding: 30px 50px;
+}
+
+.my-col-1-3-tablet .card-intro h2 {
+    padding: 15px 0px;
+}
+
+.my-col {
+    padding: 20px 0;
+}
+
+.my-row-intro {
+    padding: 30px 0;
+}
+
+.apple-store p {
+    padding: 20px 0 40px;
+}
+
+
+
+.my-row-intro {
+
+
+}
 
 /* 
 footer  
@@ -68,11 +143,111 @@ footer
 Responsive  
 */
 
+/* tablet */
+
 @media screen and (min-width: 576px) {
     .header-container-right-desktop {
         display: none;
     }
+
+    .container-header {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0;
+        align-items: center;
+        max-width: 850px;
+    }
+
+    .container-main {
+        max-width: 850px;
+        margin: 0 auto;
+    }
+
+    .my-row-intro {
+        display: flex;
+        flex-wrap: wrap;
+
+
+    }
+
+    .my-col-2-3-tablet {
+        width: calc(((100% / 3) * 2) - 20px);
+    }
+
+    .my-col-1-3-tablet {
+        width: calc((100% / 3) - 20px);
+        display: flex;
+    }
+
+    .my-row-intro  {
+        margin: 0 -10px;
+    }
+
+    .imagine-phone > img {
+        max-height: 300px;
+        margin-bottom: -5px;
+        padding: 10px 20px;
+    }
+
+    .card-intro {
+        background-color: #b5ddff;
+        border-radius: 20px;
+    }
+
+    .apple-store  {
+        padding: 20px 30px ;
+    }
+
+    .apple-store p {
+        padding: 20px 0;
+        font-size: 20px;
+    }
+
+    .card-intro .apple-store > a {
+        background-color: #0084fd;
+        padding: 6px 40px;
+        color: white;
+        text-decoration: none;
+        border-radius: 20px;
+    }
+
+    .card-intro .apple-store > a > i {
+        padding: 0px 10px;
+    }
+
+    .card-intro h2 {
+        color: #0084fd;
+    }
+
+    .card-intro p {
+        font-size: 20px;
+    }
+
+    .my-col-1-3-tablet .card-intro div > i {
+        color: #0084fd;
+        font-size: 60px;
+    }
+
+    .my-col-1-3-tablet .card-intro {
+        text-align: center;
+        padding: 20px 20px;
+    }
+
+    .my-col-1-3-tablet .card-intro h2 {
+        padding: 15px 0px;
+    }
+
+    .my-col {
+        padding: 10px 0;
+    }
+
+    .my-row-intro {
+        padding: 30px 0;
+    }
+
 }
+
+/* desktop  */
 
 @media screen and (min-width: 992px) {
     .header-container-right-desktop {
@@ -82,5 +257,114 @@ Responsive
     .header-container-right-mobile {
         display: none;
     }
+
+    .container-header {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0;
+        align-items: center;
+        max-width: 1000px;
+    }
+
+    .container-main {
+        max-width: 1000px;
+        margin: 0 auto;
+        /* padding: 0 10px; */
+    }
+
+    .my-row-intro {
+        display: flex;
+        flex-wrap: wrap;
+        /* margin-left: -10px;
+        margin-right: -10px; */
+
+
+    }
+
+    .my-col-2-3-tablet {
+        width: calc(((100% / 3) * 2) - 20px);
+    }
+
+    .my-col-1-3-tablet {
+        width: calc((100% / 3) - 20px);
+        display: flex;
+    }
+
+    .my-row-intro  {
+        margin: 0 -10px;
+    }
+
+    .imagine-phone > img {
+
+        padding: 50px 60px 0  40px;
+        margin-bottom: -5px;
+    }
+
+    .card-intro {
+        background-color: #b5ddff;
+        border-radius: 20px;
+    }
+
+    .my-col-2-3-tablet .card-intro {
+        display: flex;
+    }
     
+    .apple-store  {
+        padding: 20px 20px ;
+    }
+
+    .apple-store p {
+        padding: 20px 0 30px;
+        font-size: medium;
+    }
+
+    .card-intro .apple-store > a {
+        background-color: #0084fd;
+        padding: 6px 40px;
+        color: white;
+        text-decoration: none;
+        border-radius: 20px;
+    }
+
+    .card-intro .apple-store > a > i {
+        padding: 0px 10px;
+    }
+
+    .card-intro h2 {
+        color: #0084fd;
+    }
+
+    .my-col-1-3-tablet .card-intro div > i {
+        color: #0084fd;
+        font-size: 60px;
+    }
+
+    .my-col-1-3-tablet .card-intro {
+        text-align: center;
+        padding: 20px 20px;
+    }
+
+    .my-col-1-3-tablet .card-intro h2 {
+        padding: 25px 0px;
+    }
+
+    .my-col-1-3-tablet .card-intro p {
+        font-size: medium;
+    }
+
+    .my-col {
+        padding: 10px 0;
+    }
+
+    .my-row-intro {
+        padding: 30px 0;
+    }
+
+
+    
+
+    
+
+
+
 }
