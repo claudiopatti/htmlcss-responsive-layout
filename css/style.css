@@ -59,7 +59,7 @@ main
 */
 
 .container-main {
-    max-width: 400px;
+    max-width: 300px;
     margin: 0 auto;
 }
 
@@ -134,7 +134,9 @@ main
 }
 
 
-
+#Testimonials {
+    margin: 40px 0;
+}
 
 .card-planning-left > img {
     width: 100%;
@@ -170,6 +172,7 @@ main
 
 .my-button > a  {
     background-color: #9792e4;
+    color: black;
     padding: 10px;
     border-radius: 50%;
 }
@@ -180,6 +183,150 @@ main
 
 .second-container-main-desktop {
     padding-bottom: 20px;
+}
+
+.tittle-terzo-container  {
+    text-align: center;
+}
+
+.tittle-terzo-container h3  {
+    color: #9792e4;
+    padding: 20px 0;
+}
+
+.card-testimonials  {
+    background-color: #9792e4;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 20px 0;
+}
+
+
+.card-testimonials :last-child  {
+    color: white;
+
+}
+
+.test-testimonials {
+    text-align: center;
+}
+
+.test-testimonials > *  {
+    padding: 10px 0;
+}
+
+
+.circle-img {
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+
+}
+
+.circle-img > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+.terzo-container-main-desktop {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#benefit {
+    background-color: #9792e4;
+    margin: 40px 0;
+}
+.my-col-1-3-tablet .card-quarto-main {
+    background-color: white;
+}
+
+.quarto-container-main-desktop {
+    padding-top: 30px;
+}
+.quarto-container-main-desktop h2 {
+    color: white;
+}
+.card-quarto-main h2 {
+    color: #9792e4;
+}
+
+.my-col-1-3-tablet .card-quarto-main div > i {
+    color: #9792e4;
+    font-size: 40px;
+}
+
+.my-col-1-3-tablet .card-quarto-main {
+    text-align: left;
+    padding: 30px 20px;
+}
+
+.my-col-1-3-tablet .card-quarto-main > a {
+    color: white;
+    background-color: #9792e4;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 8px 50px;
+}
+
+.my-col-1-3-tablet .card-quarto-main > p {
+    margin: 10px 0 30px;
+}
+
+.card-about-left  {
+    padding: 20px 0;
+}
+
+.card-about-right  {
+    padding-top: 20px;
+}
+
+.card-about-left h2 {
+    color: #9792e4;
+    font-size: 60px;
+}
+
+.card-about-left p {
+    padding: 20px 30px 0 0;
+    font-size: 20px;
+}
+
+.card-about-right a  {
+    background-color: #9792e4;
+    color: white;
+    padding: 7px 30px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.card-about-right p {
+    color: #9792e4;
+    padding: 30px 0;
+    font-size: 25px;
+}
+
+.card-about-right div .circle-img > i {
+    color: #9792e4;
+    font-size: 60px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.circle-img  {
+    position: relative;
+}
+
+.margin-left-mobile {
+    margin-left: 0;
 }
 
 /* 
@@ -299,7 +446,154 @@ Responsive
     .card-planning-left > h2 {
         font-size: 70px;
     }
+
+    .tittle-terzo-container  {
+        text-align: center;
+    }
+
+    .tittle-terzo-container h3  {
+        color: #9792e4;
+        padding: 20px 0;
+    }
+
+    .card-testimonials  {
+        background-color: #9792e4;
+        width: 100%;
+        display: flex;
+        padding: 10px;
+        border-radius: 20px;
+        margin: 20px 0;
+    }
+
+    .card-testimonials :last-child  {
+        flex-grow: 1;
+        align-self: center;
+        color: white;
+
+    }
+
+    .card-testimonials :last-child  {
+        flex-grow: 1;
+        align-self: center;
+        color: white;
+
+    }
+
+    .test-testimonials-tablet {
+        padding-left: 30px;
+        text-align: left;
+    }
+
+    .test-testimonials-tablet > *  {
+        padding: 10px 0;
+    }
+
+    #about {
+        max-width: 850px;
+    }
+
+
+    .circle-img {
+        background-color: white;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+
+    }
+
+    .circle-img > img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+
+    .terzo-container-main-desktop {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
     
+    .quarto-container-main-desktop > h2 {
+        text-align: center;
+
+    }
+
+    .card-quarto-main h2 {
+        color: #9792e4;
+    }
+    
+    .my-col-1-3-tablet .card-quarto-main div > i {
+        color: #9792e4;
+        font-size: 40px;
+    }
+    
+    .my-col-1-3-tablet .card-quarto-main {
+        text-align: left;
+        padding: 30px 20px;
+    }
+
+    .my-col-1-2-tablet {
+        width: calc((100% / 2) - 20px);
+        display: flex;
+    }
+
+    .quinto-container-main-tablet {
+        display: flex;
+        margin: 40px 0;
+    }
+
+    .card-about-left  {
+        width: 70%;
+        padding: 20px 0;
+    }
+
+    .card-about-right  {
+        width: 30%;
+        padding-top: 20px;
+    }
+
+    .card-about-left h2 {
+        color: #9792e4;
+        font-size: 60px;
+    }
+
+    .card-about-left p {
+        padding: 20px 30px 0 0;
+        font-size: 20px;
+    }
+
+    .card-about-right a  {
+        background-color: #9792e4;
+        color: white;
+        padding: 7px 30px;
+        text-decoration: none;
+        border-radius: 20px;
+    }
+
+    .card-about-right p {
+        color: #9792e4;
+        padding: 30px 0;
+        font-size: 25px;
+    }
+
+    .card-about-right div .circle-img > i {
+        color: #9792e4;
+        font-size: 60px;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .circle-img  {
+        position: relative;
+    }
+
+    .margin-left-mobile {
+        margin-left: 50px;
+    }
 
 }
 
@@ -331,10 +625,6 @@ Responsive
     .my-row-intro {
         display: flex;
         flex-wrap: wrap;
-        /* margin-left: -10px;
-        margin-right: -10px; */
-
-
     }
 
     .my-col-2-3-tablet {
@@ -475,6 +765,36 @@ Responsive
     .card-planning-left > h2 {
         font-size: 30px;
     }
+
+    .quarto-container-main-desktop > h2 {
+        text-align: center;
+
+    }
+
+    .card-quarto-main h2 {
+        color: #9792e4;
+    }
+    
+    .my-col-1-3-tablet .card-quarto-main div > i {
+        color: #9792e4;
+        font-size: 40px;
+    }
+    
+    .my-col-1-3-tablet .card-quarto-main {
+        text-align: left;
+        padding: 30px 20px;
+    }
+
+    #about {
+        max-width: 1000px;
+    }
+
+
+    
+
+
+
+
 
 
     
