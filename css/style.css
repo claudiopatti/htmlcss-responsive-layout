@@ -128,11 +128,58 @@ main
     padding: 20px 0 40px;
 }
 
+#planning {
+    background-color: #9792e4;
+   
+}
 
 
-.my-row-intro {
 
 
+.card-planning-left > img {
+    width: 100%;
+    padding: 80px 10px;
+}
+
+
+.card-planning-left > * {
+    
+    color: white;
+ 
+    padding: 15px 0;
+}
+
+
+
+.card-planning-right div > *   {
+    padding: 10px 0;
+}
+
+.card-planning-right div > img {
+    width: 100%;
+    padding: 20px 10px;
+}
+
+
+.card-planning-right > div  {
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    max-width: 100%;
+}
+
+.my-button > a  {
+    background-color: #9792e4;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.card-planning-right div > .my-button   {
+    padding: 20px 0;
+}
+
+.second-container-main-desktop {
+    padding-bottom: 20px;
 }
 
 /* 
@@ -244,6 +291,15 @@ Responsive
     .my-row-intro {
         padding: 30px 0;
     }
+
+    .second-container-main-desktop {
+        max-width: 850px;
+    }
+
+    .card-planning-left > h2 {
+        font-size: 70px;
+    }
+    
 
 }
 
@@ -358,6 +414,66 @@ Responsive
 
     .my-row-intro {
         padding: 30px 0;
+    }
+
+    .second-container-main-desktop {
+        display: flex;
+    }
+
+    .second-container-main-desktop .card-planning-left ,
+    .second-container-main-desktop .card-planning-right {
+        width: 50%;
+    }
+    .card-planning-left > img {
+        width: 250px;
+        padding: 40px 10px;
+    }
+
+    .card-planning-left  {
+        padding-left: 170px;
+
+    }
+
+    .card-planning-left > * {
+        color: white;
+        padding: 15px 0;
+    }
+
+
+    .card-planning-right div > *   {
+        padding: 10px 0;
+        
+    }
+
+    .card-planning-right div > img {
+        width: 150px;
+        padding: 20px 10px;
+    }
+
+    
+    .card-planning-right > div  {
+        background-color: white;
+        text-align: center;
+        border-radius: 20px;
+        margin: 130px 0 20px 20px;
+        max-width: 250px;
+        max-height: 100%;
+       
+    }
+
+    .my-button > a  {
+        background-color: #9792e4;
+        padding: 10px;
+        border-radius: 50%;
+    }
+
+    .my-button  {
+        padding-bottom: 10px;
+        
+    }
+
+    .card-planning-left > h2 {
+        font-size: 30px;
     }
 
 
